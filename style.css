@@ -56,31 +56,6 @@
     border-radius: 12px;
 }
 
-.controls {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .controls {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-  }
-  .controls button {
-    font-size: 2rem;
-    padding: 0.6rem 1rem;
-    margin: 0.3rem;
-    border-radius: 10px;
-    border: none;
-    background-color: #ccc;
-    cursor: pointer;
-  }
-  .controls div {
-    display: flex;
-    gap: 1rem;
-  }
-}
 
 .food{
     background: linear-gradient(red, purple);

@@ -148,20 +148,3 @@ window.addEventListener('keydown', e =>{
 
 });
 
-function move(direction) {
-    moveSound.play();
-    switch (direction) {
-        case 'up':
-            inputDir = { x: 0, y: -1 };
-            break;
-        case 'down':
-            inputDir = { x: 0, y: 1 };
-            break;
-        case 'left':
-            inputDir = { x: -1, y: 0 };
-            break;
-        case 'right':
-            inputDir = { x: 1, y: 0 };
-            break;
-    }
-}
